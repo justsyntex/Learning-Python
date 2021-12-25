@@ -1,5 +1,6 @@
 import os
 
+# https://github.com/justsyntex
 
 ans = input("Hello! How can I help you?\n"
       "\n1. Create file"
@@ -13,17 +14,14 @@ if ans == "1":
 
     file = open(name, "w+")
     file.close()
-
 elif ans == "2":
     name = input("Write name of file: ")
 
     os.remove(name)
-
 elif ans == "3":
     name = input("Write name of folder: ")
 
     os.makedirs(name, exist_ok=True)
-
 elif ans == "4":
     name = input("Write name of folder: ")
 
