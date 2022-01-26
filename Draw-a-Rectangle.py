@@ -13,3 +13,5 @@ while True:
     while i < height:
         print("*" * width)
         i += 1
+
+    print("\n")
